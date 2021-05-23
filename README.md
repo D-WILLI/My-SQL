@@ -40,6 +40,8 @@
   ## Links
   
   > Link to Repo: https://github.com/D-WILLI/My-SQL
+  > 
+  > Link to Video Demo: https://drive.google.com/file/d/1xIDIWxhviBpyiGEdCZ5pSSpQ0zXhn1VB/view?usp=sharing
 
 
   ## License
