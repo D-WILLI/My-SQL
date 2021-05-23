@@ -33,7 +33,9 @@
   >none
  
   ## Demo
-  ![giphy](https://media.giphy.com/media/cB8iVa0e94pizK3z7E/giphy.gif)
+  ![giphy](https://media.giphy.com/media/JAkyiCMweztg6yJUyB/giphy.gif)
+  ![Screen Shot 2021-05-23 at 4 57 32 PM](https://user-images.githubusercontent.com/72957816/119276566-d7aa4880-bbe8-11eb-9bc5-872790e7462e.png)
+
   
   ## Links
   
