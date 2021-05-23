@@ -33,7 +33,7 @@ const start = () => {
         name: 'Choices',
         type: 'list',
         message: 'Would you like to do?',
-        choices: ['Add Employee', 'Add Department', 'Add Roles', 'View Departments', 'View Roles', 'View Employees', 'Quit'],
+        choices: ['Add Employee', 'Add Department', 'Add Roles', 'View Departments', 'View Roles', 'View Employees', 'Update Employee','Quit'],
       })
       .then((answer) => {
         if (answer.Choices === 'Add Employee') {
@@ -54,6 +54,9 @@ const start = () => {
         } else if (answer.Choices === 'View Employees') {
             console.log ('Please add Department') ; 
             viewEmployee();
+        } else if (answer.Choices === 'Update Employee') {
+            console.log ('Please update Employee Information') ; 
+            updateEmployee();
         }else {
           connection.end();
         }
@@ -217,5 +220,17 @@ const start = () => {
       console.table(res);
     //   connection.end();
       start();
+    });
+  };
+
+  const updateEmployee = () => {
+    connection.query('SELECT id FROM employee', (err, res) => {
+      if (err) throw err;
+  
+      // Log all results of the SELECT statement
+      console.log(res);
+
+      
+    //   connection.end();
     });
   };
