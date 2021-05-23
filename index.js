@@ -193,7 +193,7 @@ const start = () => {
       if (err) throw err;
       // Log all results of the SELECT statement
       console.table(res);
-      connection.end();
+    //   connection.end();
       start();
     });
   };
@@ -204,7 +204,7 @@ const start = () => {
       if (err) throw err;
       // Log all results of the SELECT statement
       console.table(res);
-      connection.end();
+    //   connection.end();
       start();
     });
   };
@@ -215,7 +215,7 @@ const start = () => {
       if (err) throw err;
       // Log all results of the SELECT statement
       console.table(res);
-      connection.end();
+    //   connection.end();
       start();
     });
   };
