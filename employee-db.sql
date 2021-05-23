@@ -10,6 +10,7 @@ CREATE TABLE Employee (
   title VARCHAR (30), 
   salary INTEGER (10),
   department VARCHAR (30),
+  manager VARCHAR (30),
   PRIMARY KEY (id)
 );
 
@@ -23,6 +24,7 @@ CREATE TABLE Role (
  id INT NOT NULL AUTO_INCREMENT,
   title VARCHAR(30),
   salary INTEGER(10),
+  department VARCHAR(30),
   PRIMARY KEY (id)
 );
 
